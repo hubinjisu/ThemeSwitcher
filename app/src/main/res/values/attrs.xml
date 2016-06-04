@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="main_bg" format="reference|color"/>
+    <attr name="main_textcolor" format="reference|color"/>
+    <attr name="second_bg" format="reference|color"/>
+    <attr name="second_textcolor" format="reference|color"/>
+    <attr name="text_style" format="reference"/>
+    <attr name="text_style_big" format="reference"/>
+    <attr name="text_style_small" format="reference"/>
+    <attr name="text_drawable" format="reference"/>
+    <attr name="btn_drawable" format="reference"/>
+</resources>
