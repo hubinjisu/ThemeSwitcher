@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="fontBig">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">30sp</item>
         <item name="android:textColor">@color/textcolor_main_normal</item>
     </style>
     <style name="fontSmall">
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/bg_second_normal</item>
     </style>
     <style name="theme_1" >
@@ -17,7 +17,7 @@
         <item name="text_style_big">@style/fontBig</item>
         <item name="text_style_small">@style/fontSmall</item>
         <item name="text_drawable">@mipmap/vs_calling</item>
-        <item name="btn_drawable">@mipmap/func_auto_answer_hl</item>
+        <item name="btn_drawable">@mipmap/call_answer</item>
     </style>
 
     <style name="theme_2">
@@ -29,7 +29,7 @@
         <item name="text_style_big">@style/fontSmall</item>
         <item name="text_style_small">@style/fontBig</item>
         <item name="text_drawable">@mipmap/vs_default</item>
-        <item name="btn_drawable">@mipmap/func_closebell_select</item>
+        <item name="btn_drawable">@mipmap/call_closebell_normal</item>
     </style>
 
 </resources>

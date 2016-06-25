@@ -114,7 +114,7 @@ public class ViewAttributeUtil
         TypedArray ta = theme.obtainStyledAttributes(new int[]{leftParamInt});
         if (null != ci && ci instanceof TextView)
         {
-            ((TextView) ci.getView()).setCompoundDrawables(getDrawable(ta, theme, leftParamInt), getDrawable(ta, theme, rightParamInt), getDrawable(ta, theme, topParamInt), getDrawable(ta, theme, bottomParamInt));
+            ((TextView) ci.getView()).setCompoundDrawables(getDrawable(ta, theme, leftParamInt), getDrawable(ta, theme, topParamInt), getDrawable(ta, theme, rightParamInt), getDrawable(ta, theme, bottomParamInt));
         }
         ta.recycle();
     }
